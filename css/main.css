@@ -2042,6 +2042,24 @@ footer .footer__wrap .footer__footer .footer__description {
 footer .footer__wrap .footer__footer .footer__description a {
   color: #0c6;
 }
+footer .footer__social__flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+footer .footer__social__flex .footer__social__button {
+  border: 1px solid rgba(234,234,234,0.434);
+  padding: 10px;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+footer .footer__social__flex .footer__social__button a,
+footer .footer__social__flex .footer__social__button span {
+  color: #04454d;
+  font-size: 24px;
+}
 form,
 .form {
   position: relative;
