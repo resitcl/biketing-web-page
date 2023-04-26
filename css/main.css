@@ -3296,14 +3296,6 @@ section .section__content ul li:before {
             column-count: 3;
   }
 }
-section .section__flex {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-align: center;
-      align-items: center;
-}
 @media (min-width: 720px) {
   section .section__flex {
     display: -ms-flexbox;
@@ -3507,17 +3499,11 @@ section.section--media .section__body {
   }
 }
 section.section--media .section__body .section__box {
-  position: absolute;
-  height: 95%;
-  width: 70%;
+  width: 100%;
   border-radius: 20px;
   background-color: rgba(255,255,255,0.4);
   border: 1px solid #fff;
-  margin: -35px -35px;
-  right: 35px;
-}
-section.section--media .section__body .section__box.section__box--left {
-  left: 35px;
+  padding: 20px;
 }
 section.section--media .section__body .section__content {
   background-color: #fff;
