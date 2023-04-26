@@ -2039,6 +2039,9 @@ footer .footer__wrap .footer__footer .footer__description {
   width: 95%;
   margin: 0px;
 }
+footer .footer__wrap .footer__footer .footer__description a {
+  color: #0c6;
+}
 form,
 .form {
   position: relative;
